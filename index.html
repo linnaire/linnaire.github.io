@@ -1,12 +1,383 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-    <h1>Coming Soon!</h1>
-</body>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="stylesheet" href="resources/css/styles-web.css" />
+		<link rel="stylesheet" href="resources/css/styles-tablet.css" />
+		<link rel="stylesheet" href="resources/css/styles-mobile.css" />
+		<title>Linnaire Galleno</title>
+
+		<script
+			src="https://kit.fontawesome.com/4442d9bb2d.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="nav">
+					<input type="checkbox" name="nav__checkbox" id="nav__checkbox" />
+					<label for="nav__checkbox" class="nav__toggle">
+						<!-- START: Hamburger SVG ICONS -->
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="menu"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+							/>
+						</svg>
+
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="close"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M6 18 18 6M6 6l12 12"
+							/>
+						</svg>
+						<!-- END: Hamburger SVG ICONS -->
+					</label>
+
+					<!-- <div class="logo">
+						<a href="#" class="nav-logo"></a>
+						<img
+							class="nav-logo"
+							src="resources/img/logo-inverted.svg"
+							alt="Linnaire Galleno Logo"
+						/>
+					</div> -->
+					<ul class="nav-links-container">
+						<li class="logo">
+							<a href="#" class="nav-logo"></a>
+							<img
+								class="nav-logo"
+								src="resources/img/logo-inverted.svg"
+								alt="Linnaire Galleno Logo"
+							/>
+						</li>
+						<li class="nav-links link-onhover">
+							<a href="index.html">HOME</a>
+						</li>
+						<li class="nav-links link-onhover">
+							<a href="#about">ABOUT</a>
+						</li>
+						<li class="nav-links link-onhover">
+							<a href="#work">WORK</a>
+						</li>
+						<li class="nav-links link-onhover">
+							<a href="#experience">EXPERIENCE</a>
+						</li>
+						<li class="nav-links link-onhover">
+							<a href="#contact">CONTACT</a>
+						</li>
+						<li class="nav-links">
+							<a
+								class="btn"
+								target="_blank"
+								href="resources/cv/Linnaire Galleno - Resume.pdf"
+								>DOWNLOAD CV</a
+							>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<section class="introduction" id="introduction">
+				<div class="introduction-text">
+					<!-- <p>Hello, I am</p> -->
+					<h1 class="my-name">Linnaire Galleno</h1>
+					<p>
+						Full-Stack Developer |
+						<span class="acumatica">Acumatica Application Developer</span>
+					</p>
+					<div class="socials">
+						<a
+							href="https://gitlab.com/work.eng.galleno"
+							target="_blank"
+							class="fa-brands fa-gitlab"
+						></a>
+						<a
+							href="https://github.com/linnaire"
+							target="_blank"
+							class="fa-brands fa-github"
+						></a>
+						<a
+							href="https://www.linkedin.com/in/linnaire-galleno-761990164/"
+							target="_blank"
+							class="fa-brands fa-linkedin"
+						></a>
+					</div>
+				</div>
+			</section>
+		</header>
+		<main>
+			<section class="about" id="about">
+				<div class="about-details">
+					<h2 class="section-header emphasis-onfirstLetter">Hey there!</h2>
+					<p class="section-details">
+						I am an Acumatica Application Developer with a passion for turning
+						complex business needs into seamless solutions. With 3 years of
+						experience implementing and optimizing Acumatica and over 5 years of
+						hands-on expertise in backend development, I know my way around the
+						framework like the back of my hand. Whether it's customizing
+						workflows, fine-tuning configurations, or unlocking the full
+						potential of Acumatica, I thrive on building smarter, more efficient
+						systems. Let’s make ERP magic happen!
+					</p>
+
+					<h2 class="section-header emphasis-onfirstLetter">Expertise</h2>
+					<div class="skills-container">
+						<article class="skill">
+							<header>
+								<h3>
+									<span class="fa-brands fa-css3-alt"></span> Front-End Dev
+								</h3>
+							</header>
+							<p class="skill-detail">
+								Passionate about learning HTML, CSS and JS Frameworks to create
+								seamless and engaging user experiences.
+							</p>
+						</article>
+						<article class="skill">
+							<header>
+								<h3>
+									<span class="fa-solid fa-laptop-code"></span> Back-End Dev
+								</h3>
+							</header>
+							<p class="skill-detail">
+								Experienced in both functional and OOP: C#
+							</p>
+						</article>
+						<article class="skill">
+							<header>
+								<h3><span class="fa-solid fa-database"></span> Database</h3>
+							</header>
+							<p>
+								Building efficient experiences, one optimized query at a time
+								using Microsoft SQL Server.
+							</p>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section id="work">
+				<h2 class="header emphasis-onfirstLetter">My Works</h2>
+				<div class="work-container">
+					<article class="work">
+						<img
+							src="https://fakeimg.pl/600x200"
+							alt="Enrollment Reservation System"
+						/>
+						<div class="details">
+							<h3>Enrollment Reservation System</h3>
+							<p>
+								The Enrollment Reservation System is a streamlined and efficient
+								platform designed to simplify the student enrollment process.
+								This system allows students and parents to reserve slots for
+								enrollment in advance, reducing long queues and manual
+								paperwork.
+							</p>
+							<a
+								href="https://github.com/linnaire/EnrollmentReservation"
+								class="repository"
+								target="_blank"
+							>
+								<span class="fa-brands fa-github"></span>Github Repository</a
+							>
+						</div>
+					</article>
+					<article class="work">
+						<img
+							src="https://fakeimg.pl/600x200"
+							alt="School Access Control and Messaging System "
+						/>
+						<div class="details">
+							<h3>School Access Control and Messaging System</h3>
+							<p>
+								The Access Control and Messaging System is a secure and
+								efficient solution designed to enhance school safety and
+								communication. This system provides controlled access to school
+								premises, ensuring that only authorized students, staff, and
+								visitors can enter designated areas.
+							</p>
+							<a
+								href="https://github.com/linnaire/Sacms"
+								class="repository"
+								target="_blank"
+							>
+								<span class="fa-brands fa-github"></span>Github Repository</a
+							>
+						</div>
+					</article>
+					<article class="work">
+						<img
+							src="https://fakeimg.pl/600x200"
+							alt="Time Off Management System"
+						/>
+						<div class="details">
+							<h3>Time Off Management System</h3>
+							<p>
+								The Time Off Management System is a smart and efficient solution
+								for tracking and managing employee leave requests. Designed for
+								businesses and organizations of all sizes, this system
+								streamlines the approval process, ensures accurate
+								record-keeping, and helps maintain workforce productivity by
+								preventing scheduling conflicts.
+							</p>
+							<a
+								href="https://github.com/linnaire/LeaveManagement"
+								class="repository"
+								target="_blank"
+							>
+								<span class="fa-brands fa-github"></span>Github Repository</a
+							>
+						</div>
+					</article>
+					<article class="work">
+						<img src="https://fakeimg.pl/600x200" alt="Bethany's Pie Shop" />
+						<div class="details">
+							<h3>Bethany's Pie Shop</h3>
+							<p>
+								The Bethany's Pie Shop System is a dedicated solution designed
+								to streamline operations at Bethany's Pie Shop. This system
+								enables users to track inventory and monitor daily sales,
+								ensuring efficient stock management and smooth business
+								operations.
+							</p>
+							<a
+								href="https://github.com/linnaire/BethanyPieShop.Web"
+								class="repository"
+								target="_blank"
+							>
+								<span class="fa-brands fa-github"></span>Github Repository</a
+							>
+						</div>
+					</article>
+				</div>
+			</section>
+			<section id="experience">
+				<h2 class="header emphasis-onfirstLetter">Work Experiences</h2>
+				<div class="experience-container">
+					<article class="experience">
+						<h3 class="year">January 2022 &mdash; Current</h3>
+						<p class="company">
+							CFBS -
+							<span class="position">Acumatica Technical Consultant</span>
+						</p>
+						<p class="job-description">
+							Delivers Acumatica solutions tailored to clients' business needs,
+							ranging from framework customization to implementing new logic
+							that enables clients to achieve their goals effectively.
+						</p>
+					</article>
+					<article class="experience">
+						<h3 class="year">January 2020 &mdash; January 2022</h3>
+						<p class="company">
+							Infosoft Consulting Corporation -
+							<span class="position"
+								>Jr. Business Application Development Supervisor</span
+							>
+						</p>
+						<p class="job-description">
+							Designed and developed modules for the Property Management System
+							using the Acumatica Framework, covering processes from property
+							computation to turnover.
+						</p>
+					</article>
+					<article class="experience">
+						<h3 class="year">May 2014 &mdash; December 2019</h3>
+						<p class="company">
+							Kinetique Systems Inc. -
+							<span class="position">Junior Software Developer</span>
+						</p>
+						<p class="job-description">
+							Began as an intern, initially handling debugging and minor tasks,
+							and gradually took part in larger development projects.
+							Contributed to the creation of an Online Monitoring System using
+							Laravel 5.2, a Hotel Reservation Management System utilizing Web
+							Forms, WordPress, and Web Services, and the Phoenix Fleet App
+							built with .NET Core 2.0 MVC, following Clean Architecture
+							principles. Gained hands-on experience in full-stack development,
+							system optimization, and integrating various technologies to
+							enhance application performance.
+						</p>
+					</article>
+					<article class="experience">
+						<h3 class="year">2015 &mdash; Current</h3>
+						<p class="company">
+							Upwork - <span class="position">Remote Freelancer</span>
+						</p>
+						<p class="job-description">
+							Experienced Acumatica Application Developer on Upwork,
+							specializing in delivering tailored business solutions using the
+							Acumatica Framework. Expertise includes customizing modules,
+							optimizing workflows, and implementing new functionalities to
+							enhance system efficiency and meet client requirements. Proficient
+							in developing integrations, extending core features, and ensuring
+							seamless automation within the Acumatica ecosystem.
+						</p>
+					</article>
+				</div>
+			</section>
+			<section id="contact">
+				<div class="contact-container">
+					<h2>Let&apos;s Connect in Socials</h2>
+					<div class="socials">
+						<a
+							href="https://gitlab.com/work.eng.galleno"
+							target="_blank"
+							class="fa-brands fa-gitlab gitlab"
+							><span></span>GitLab</a
+						>
+						<a
+							href="https://github.com/linnaire"
+							target="_blank"
+							class="fa-brands fa-github github"
+							><span></span>Github</a
+						>
+						<a
+							href="https://www.linkedin.com/in/linnaire-galleno-761990164/"
+							target="_blank"
+							class="fa-brands fa-linkedin linkedin"
+							><span></span>LinkedIn</a
+						>
+					</div>
+
+					<h2>Let&apos;s Turn Your Ideas into Powerful Solutions!</h2>
+					<p>
+						Looking for a skilled developer to bring your vision to life?
+						Whether it's Acumatica customization, web development, or system
+						integrations, I specialize in crafting efficient and scalable
+						solutions tailored to your business needs. Let&apos;s build
+						something amazing together—reach out and let&apos;s make it happen!
+					</p>
+					<div class="btn-container">
+						<a
+							href="mailto:work.eng.galleno@gmail.com?subject=Let's Make my Idea into a Solution"
+							target="_blank"
+						>
+							<span class="fa-solid fa-paper-plane"></span>Send me an email
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<p>&copy; 2025 - Linnaire Galleno</p>
+		</footer>
+	</body>
 </html>
