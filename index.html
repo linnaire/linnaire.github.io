@@ -1,383 +1,439 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" type="image/x-icon" href="favicon.ico" />
-		<link rel="stylesheet" href="resources/css/styles-web.css" />
-		<link rel="stylesheet" href="resources/css/styles-tablet.css" />
-		<link rel="stylesheet" href="resources/css/styles-mobile.css" />
-		<title>Linnaire Galleno</title>
+<html lang="en" data-theme="light" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linnaire Galleno — Acumatica Technical Consultant</title>
+  <meta name="description" content="Linnaire Galleno is an Acumatica Technical Consultant with 12+ years in software development, specialising in ERP customisation, integrations and upgrades." />
 
-		<script
-			src="https://kit.fontawesome.com/4442d9bb2d.js"
-			crossorigin="anonymous"
-		></script>
-	</head>
-	<body>
-		<header>
-			<nav>
-				<div class="nav">
-					<input type="checkbox" name="nav__checkbox" id="nav__checkbox" />
-					<label for="nav__checkbox" class="nav__toggle">
-						<!-- START: Hamburger SVG ICONS -->
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke-width="1.5"
-							stroke="currentColor"
-							class="menu"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-							/>
-						</svg>
+  <!-- Social preview (edit the URL once the site is hosted) -->
+  <meta property="og:title" content="Linnaire Galleno — Acumatica Technical Consultant" />
+  <meta property="og:description" content="ERP customisation, integrations and upgrades. 4× Certified Acumatica Application Developer." />
+  <meta property="og:type" content="website" />
 
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke-width="1.5"
-							stroke="currentColor"
-							class="close"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								d="M6 18 18 6M6 6l12 12"
-							/>
-						</svg>
-						<!-- END: Hamburger SVG ICONS -->
-					</label>
+  <!-- Inline SVG favicon: the monogram "LG". No extra file needed. -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23163f36'/><text x='50' y='68' font-size='52' font-family='Georgia,serif' fill='%23f3f1ec' text-anchor='middle'>LG</text></svg>" />
 
-					<!-- <div class="logo">
-						<a href="#" class="nav-logo"></a>
-						<img
-							class="nav-logo"
-							src="resources/img/logo-inverted.svg"
-							alt="Linnaire Galleno Logo"
-						/>
-					</div> -->
-					<ul class="nav-links-container">
-						<li class="logo">
-							<a href="#" class="nav-logo"></a>
-							<img
-								class="nav-logo"
-								src="resources/img/logo-inverted.svg"
-								alt="Linnaire Galleno Logo"
-							/>
-						</li>
-						<li class="nav-links link-onhover">
-							<a href="index.html">HOME</a>
-						</li>
-						<li class="nav-links link-onhover">
-							<a href="#about">ABOUT</a>
-						</li>
-						<li class="nav-links link-onhover">
-							<a href="#work">WORK</a>
-						</li>
-						<li class="nav-links link-onhover">
-							<a href="#experience">EXPERIENCE</a>
-						</li>
-						<li class="nav-links link-onhover">
-							<a href="#contact">CONTACT</a>
-						</li>
-						<li class="nav-links">
-							<a
-								class="btn"
-								target="_blank"
-								href="resources/cv/Linnaire Galleno - Resume.pdf"
-								>DOWNLOAD CV</a
-							>
-						</li>
-					</ul>
-				</div>
-			</nav>
-			<section class="introduction" id="introduction">
-				<div class="introduction-text">
-					<!-- <p>Hello, I am</p> -->
-					<h1 class="my-name">Linnaire Galleno</h1>
-					<p>
-						Full-Stack Developer |
-						<span class="acumatica">Acumatica Application Developer</span>
-					</p>
-					<div class="socials">
-						<a
-							href="https://gitlab.com/work.eng.galleno"
-							target="_blank"
-							class="fa-brands fa-gitlab"
-						></a>
-						<a
-							href="https://github.com/linnaire"
-							target="_blank"
-							class="fa-brands fa-github"
-						></a>
-						<a
-							href="https://www.linkedin.com/in/linnaire-galleno-761990164/"
-							target="_blank"
-							class="fa-brands fa-linkedin"
-						></a>
-					</div>
-				</div>
-			</section>
-		</header>
-		<main>
-			<section class="about" id="about">
-				<div class="about-details">
-					<h2 class="section-header emphasis-onfirstLetter">Hey there!</h2>
-					<p class="section-details">
-						I am an Acumatica Application Developer with a passion for turning
-						complex business needs into seamless solutions. With 3 years of
-						experience implementing and optimizing Acumatica and over 5 years of
-						hands-on expertise in backend development, I know my way around the
-						framework like the back of my hand. Whether it's customizing
-						workflows, fine-tuning configurations, or unlocking the full
-						potential of Acumatica, I thrive on building smarter, more efficient
-						systems. Let’s make ERP magic happen!
-					</p>
+  <!-- Fonts. If you are offline, the system fallbacks in styles.css take over cleanly. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 
-					<h2 class="section-header emphasis-onfirstLetter">Expertise</h2>
-					<div class="skills-container">
-						<article class="skill">
-							<header>
-								<h3>
-									<span class="fa-brands fa-css3-alt"></span> Front-End Dev
-								</h3>
-							</header>
-							<p class="skill-detail">
-								Passionate about learning HTML, CSS and JS Frameworks to create
-								seamless and engaging user experiences.
-							</p>
-						</article>
-						<article class="skill">
-							<header>
-								<h3>
-									<span class="fa-solid fa-laptop-code"></span> Back-End Dev
-								</h3>
-							</header>
-							<p class="skill-detail">
-								Experienced in both functional and OOP: C#
-							</p>
-						</article>
-						<article class="skill">
-							<header>
-								<h3><span class="fa-solid fa-database"></span> Database</h3>
-							</header>
-							<p>
-								Building efficient experiences, one optimized query at a time
-								using Microsoft SQL Server.
-							</p>
-						</article>
-					</div>
-				</div>
-			</section>
-			<section id="work">
-				<h2 class="header emphasis-onfirstLetter">My Works</h2>
-				<div class="work-container">
-					<article class="work">
-						<img
-							src="https://fakeimg.pl/600x200"
-							alt="Enrollment Reservation System"
-						/>
-						<div class="details">
-							<h3>Enrollment Reservation System</h3>
-							<p>
-								The Enrollment Reservation System is a streamlined and efficient
-								platform designed to simplify the student enrollment process.
-								This system allows students and parents to reserve slots for
-								enrollment in advance, reducing long queues and manual
-								paperwork.
-							</p>
-							<a
-								href="https://github.com/linnaire/EnrollmentReservation"
-								class="repository"
-								target="_blank"
-							>
-								<span class="fa-brands fa-github"></span>Github Repository</a
-							>
-						</div>
-					</article>
-					<article class="work">
-						<img
-							src="https://fakeimg.pl/600x200"
-							alt="School Access Control and Messaging System "
-						/>
-						<div class="details">
-							<h3>School Access Control and Messaging System</h3>
-							<p>
-								The Access Control and Messaging System is a secure and
-								efficient solution designed to enhance school safety and
-								communication. This system provides controlled access to school
-								premises, ensuring that only authorized students, staff, and
-								visitors can enter designated areas.
-							</p>
-							<a
-								href="https://github.com/linnaire/Sacms"
-								class="repository"
-								target="_blank"
-							>
-								<span class="fa-brands fa-github"></span>Github Repository</a
-							>
-						</div>
-					</article>
-					<article class="work">
-						<img
-							src="https://fakeimg.pl/600x200"
-							alt="Time Off Management System"
-						/>
-						<div class="details">
-							<h3>Time Off Management System</h3>
-							<p>
-								The Time Off Management System is a smart and efficient solution
-								for tracking and managing employee leave requests. Designed for
-								businesses and organizations of all sizes, this system
-								streamlines the approval process, ensures accurate
-								record-keeping, and helps maintain workforce productivity by
-								preventing scheduling conflicts.
-							</p>
-							<a
-								href="https://github.com/linnaire/LeaveManagement"
-								class="repository"
-								target="_blank"
-							>
-								<span class="fa-brands fa-github"></span>Github Repository</a
-							>
-						</div>
-					</article>
-					<article class="work">
-						<img src="https://fakeimg.pl/600x200" alt="Bethany's Pie Shop" />
-						<div class="details">
-							<h3>Bethany's Pie Shop</h3>
-							<p>
-								The Bethany's Pie Shop System is a dedicated solution designed
-								to streamline operations at Bethany's Pie Shop. This system
-								enables users to track inventory and monitor daily sales,
-								ensuring efficient stock management and smooth business
-								operations.
-							</p>
-							<a
-								href="https://github.com/linnaire/BethanyPieShop.Web"
-								class="repository"
-								target="_blank"
-							>
-								<span class="fa-brands fa-github"></span>Github Repository</a
-							>
-						</div>
-					</article>
-				</div>
-			</section>
-			<section id="experience">
-				<h2 class="header emphasis-onfirstLetter">Work Experiences</h2>
-				<div class="experience-container">
-					<article class="experience">
-						<h3 class="year">January 2022 &mdash; Current</h3>
-						<p class="company">
-							CFBS -
-							<span class="position">Acumatica Technical Consultant</span>
-						</p>
-						<p class="job-description">
-							Delivers Acumatica solutions tailored to clients' business needs,
-							ranging from framework customization to implementing new logic
-							that enables clients to achieve their goals effectively.
-						</p>
-					</article>
-					<article class="experience">
-						<h3 class="year">January 2020 &mdash; January 2022</h3>
-						<p class="company">
-							Infosoft Consulting Corporation -
-							<span class="position"
-								>Jr. Business Application Development Supervisor</span
-							>
-						</p>
-						<p class="job-description">
-							Designed and developed modules for the Property Management System
-							using the Acumatica Framework, covering processes from property
-							computation to turnover.
-						</p>
-					</article>
-					<article class="experience">
-						<h3 class="year">May 2014 &mdash; December 2019</h3>
-						<p class="company">
-							Kinetique Systems Inc. -
-							<span class="position">Junior Software Developer</span>
-						</p>
-						<p class="job-description">
-							Began as an intern, initially handling debugging and minor tasks,
-							and gradually took part in larger development projects.
-							Contributed to the creation of an Online Monitoring System using
-							Laravel 5.2, a Hotel Reservation Management System utilizing Web
-							Forms, WordPress, and Web Services, and the Phoenix Fleet App
-							built with .NET Core 2.0 MVC, following Clean Architecture
-							principles. Gained hands-on experience in full-stack development,
-							system optimization, and integrating various technologies to
-							enhance application performance.
-						</p>
-					</article>
-					<article class="experience">
-						<h3 class="year">2015 &mdash; Current</h3>
-						<p class="company">
-							Upwork - <span class="position">Remote Freelancer</span>
-						</p>
-						<p class="job-description">
-							Experienced Acumatica Application Developer on Upwork,
-							specializing in delivering tailored business solutions using the
-							Acumatica Framework. Expertise includes customizing modules,
-							optimizing workflows, and implementing new functionalities to
-							enhance system efficiency and meet client requirements. Proficient
-							in developing integrations, extending core features, and ensuring
-							seamless automation within the Acumatica ecosystem.
-						</p>
-					</article>
-				</div>
-			</section>
-			<section id="contact">
-				<div class="contact-container">
-					<h2>Let&apos;s Connect in Socials</h2>
-					<div class="socials">
-						<a
-							href="https://gitlab.com/work.eng.galleno"
-							target="_blank"
-							class="fa-brands fa-gitlab gitlab"
-							><span></span>GitLab</a
-						>
-						<a
-							href="https://github.com/linnaire"
-							target="_blank"
-							class="fa-brands fa-github github"
-							><span></span>Github</a
-						>
-						<a
-							href="https://www.linkedin.com/in/linnaire-galleno-761990164/"
-							target="_blank"
-							class="fa-brands fa-linkedin linkedin"
-							><span></span>LinkedIn</a
-						>
-					</div>
+  <link rel="stylesheet" href="styles.css" />
 
-					<h2>Let&apos;s Turn Your Ideas into Powerful Solutions!</h2>
-					<p>
-						Looking for a skilled developer to bring your vision to life?
-						Whether it's Acumatica customization, web development, or system
-						integrations, I specialize in crafting efficient and scalable
-						solutions tailored to your business needs. Let&apos;s build
-						something amazing together—reach out and let&apos;s make it happen!
-					</p>
-					<div class="btn-container">
-						<a
-							href="mailto:work.eng.galleno@gmail.com?subject=Let's Make my Idea into a Solution"
-							target="_blank"
-						>
-							<span class="fa-solid fa-paper-plane"></span>Send me an email
-						</a>
-					</div>
-				</div>
-			</section>
-		</main>
-		<footer>
-			<p>&copy; 2025 - Linnaire Galleno</p>
-		</footer>
-	</body>
+  <!--
+    Set the theme BEFORE the page paints so there is no white flash for dark-mode users.
+    This is the only script in <head> on purpose — it must run first.
+  -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme', saved || (prefersDark ? 'dark' : 'light'));
+      } catch (e) { /* private browsing: just keep the default */ }
+    })();
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Linnaire Galleno — home">
+        <span class="brand-mark" aria-hidden="true">LG</span>
+        <span class="brand-name">Linnaire Galleno</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#journey">Journey</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch colour theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.3A8.5 8.5 0 1 1 9.7 3.5a6.9 6.9 0 0 0 10.8 10.8z"/></svg>
+        </button>
+
+        <button class="menu-btn" id="menuToggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <!-- Thin bar that fills as you scroll the page -->
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">
+            <span class="status-dot" aria-hidden="true"></span>
+            Kidapawan City, Philippines · Open to consulting work
+          </p>
+
+          <h1 class="hero-title reveal">
+            I build and untangle
+            <em>ERP systems</em>
+            that businesses run on.
+          </h1>
+
+          <p class="hero-lede reveal">
+            I'm Linnaire — an Acumatica Technical Consultant. For twelve years I've been writing
+            software, and for the last six-plus I've focused on making Acumatica do exactly what a
+            business needs it to do: custom modules, third-party integrations, migrations and the
+            upgrades nobody else wants to touch.
+          </p>
+
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#work">View selected work</a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <aside class="hero-stats reveal" aria-label="Career at a glance">
+          <dl>
+            <div class="stat">
+              <dt>Years in software</dt>
+              <dd><span data-count="12">12</span><span class="stat-suffix">+</span></dd>
+            </div>
+            <div class="stat">
+              <dt>Years on Acumatica</dt>
+              <dd><span data-count="6">6</span><span class="stat-suffix">+</span></dd>
+            </div>
+            <div class="stat">
+              <dt>Developer certifications</dt>
+              <dd><span data-count="4">4</span><span class="stat-suffix">×</span></dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT
+         ============================================================ -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section-label">01 — About</p>
+
+        <div class="about-grid">
+          <div class="about-copy">
+            <h2 class="section-title">A developer who reads the business first, then the code.</h2>
+
+            <p>
+              I started out in 2014 debugging banking and membership systems, and spent those early
+              years moving between whatever the job needed — VB.NET, Laravel, WordPress, .NET Core.
+              That range turned out to be the useful part. ERP work is rarely one clean stack; it's
+              a legacy system, a spreadsheet, an API that half-works, and a deadline.
+            </p>
+
+            <p>
+              Since 2020 my focus has been the Acumatica Framework. I've built core modules for real
+              estate and property management from reservation through move-out, integrated in-house
+              software with Acumatica SaaS over REST, customised the mobile app, shipped a
+              ConnectWise integration, and built an automated installer for clients importing very
+              large record sets. I'm also the person my team sends the upgrades to.
+            </p>
+
+            <p>
+              Alongside that I've freelanced on Upwork since 2015 — smaller, sharper projects where I
+              own the whole thing end to end. Four times certified as an Acumatica Application
+              Developer, most recently in 2026.
+            </p>
+          </div>
+
+          <div class="about-side">
+            <div class="side-card">
+              <h3>Currently</h3>
+              <p class="side-role">Acumatica Technical Consultant</p>
+              <p class="side-meta">Clients First Business Solutions<br />Jan 2022 — Present</p>
+            </div>
+
+            <div class="side-card">
+              <h3>Certifications</h3>
+              <ul class="cert-list">
+                <li><span class="cert-year">2026</span> Certified Acumatica Application Developer</li>
+                <li><span class="cert-year">2025</span> Certified Acumatica Application Developer</li>
+                <li><span class="cert-year">2021</span> Certified Acumatica Application Developer</li>
+                <li><span class="cert-year">2019</span> Certified Acumatica Application Developer</li>
+              </ul>
+            </div>
+
+            <a class="side-card side-card-link" href="Linnaire%20Galleno%20-%20Resume.pdf" target="_blank" rel="noopener">
+              <h3>Résumé</h3>
+              <p class="side-meta">Download the full PDF <span class="arrow" aria-hidden="true">↗</span></p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CAREER JOURNEY
+         ============================================================ -->
+    <section class="section section-alt" id="journey">
+      <div class="container">
+        <p class="section-label">02 — Career journey</p>
+        <h2 class="section-title section-title-wide">Twelve years, four chapters.</h2>
+
+        <ol class="timeline">
+
+          <li class="timeline-item reveal">
+            <div class="timeline-when">
+              <span class="timeline-range">Jan 2022 — Present</span>
+              <span class="badge badge-live">Current</span>
+            </div>
+            <div class="timeline-body">
+              <h3>Acumatica Technical Consultant</h3>
+              <p class="timeline-org">Clients First Business Solutions</p>
+              <ul>
+                <li>Build new modules and extend existing applications against client requirements.</li>
+                <li>Act as the team's debugging escalation for hard-to-reproduce issues.</li>
+                <li>Serve as upgrade specialist for Acumatica version migrations.</li>
+                <li>Customised Acumatica's mobile application.</li>
+                <li>Co-built an automated installer that imports very large record sets for clients.</li>
+                <li>Co-built an Acumatica ↔ ConnectWise integration.</li>
+                <li>Shipped in-house products now used across Manufacturing and Projects.</li>
+                <li>Delivered a Warehouse Management System customisation.</li>
+                <li>Produced reports and dashboards.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-when">
+              <span class="timeline-range">Jan 2020 — Jan 2022</span>
+            </div>
+            <div class="timeline-body">
+              <h3>Jr. Business Application Development Supervisor</h3>
+              <p class="timeline-org">Infosoft Consulting Corporation</p>
+              <ul>
+                <li>Built core Acumatica Framework modules for a real estate application — customised
+                    payments and application, property computation, through to contract dismissal.</li>
+                <li>Built core modules for a property estate application covering reservation to move-out.</li>
+                <li>Designed and delivered a REST API integration connecting a client's in-house
+                    software to Acumatica SaaS.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-when">
+              <span class="timeline-range">May 2014 — Dec 2019</span>
+            </div>
+            <div class="timeline-body">
+              <h3>Junior Software Developer</h3>
+              <p class="timeline-org">Kinetique Systems Inc.</p>
+              <ul>
+                <li>Provided debugging expertise to complete a banking and membership application in VB.NET.</li>
+                <li>Delivered an online monitoring system built on Laravel 5.2.</li>
+                <li>Delivered a hotel reservation management system using Web Forms, WordPress and web services.</li>
+                <li>Contributed to the Phoenix app on .NET Core 2.0 and MVC, implementing Clean Architecture.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-when">
+              <span class="timeline-range">2015 — Present</span>
+              <span class="badge">Parallel</span>
+            </div>
+            <div class="timeline-body">
+              <h3>Freelance Developer</h3>
+              <p class="timeline-org">Upwork</p>
+              <ul>
+                <li>Integrated a third-party app with Acumatica over its API.</li>
+                <li>Built a customised import/export scenario using REST API and the Acumatica Framework.</li>
+                <li>Customised Acumatica projects end to end — new pages and modified business logic.</li>
+                <li>Built modules for a small lottery system on .NET Core 2.0.</li>
+                <li>Delivered a survey app in VB.NET and a POS + inventory system in Laravel.</li>
+                <li>Logo design, branding and social media strategy.</li>
+              </ul>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EXPERTISE
+         ============================================================ -->
+    <section class="section" id="expertise">
+      <div class="container">
+        <p class="section-label">03 — Expertise</p>
+        <h2 class="section-title section-title-wide">What I actually do all day.</h2>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3>ERP &amp; Acumatica</h3>
+            <ul class="chips">
+              <li>Acumatica Framework</li>
+              <li>Custom modules</li>
+              <li>Version upgrades</li>
+              <li>Mobile app customisation</li>
+              <li>Reports &amp; dashboards</li>
+              <li>Data migration</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Web &amp; application development</h3>
+            <ul class="chips">
+              <li>.NET Core</li>
+              <li>.NET Framework</li>
+              <li>ASP.NET MVC</li>
+              <li>VB.NET</li>
+              <li>Web Forms</li>
+              <li>Laravel</li>
+              <li>WordPress</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Data &amp; integration</h3>
+            <ul class="chips">
+              <li>SQL Server</li>
+              <li>Database management</li>
+              <li>REST API integration</li>
+              <li>Web services</li>
+              <li>Third-party connectors</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Practice</h3>
+            <ul class="chips">
+              <li>Debugging &amp; root-cause analysis</li>
+              <li>Problem solving</li>
+              <li>Clean Architecture</li>
+              <li>Git &amp; GitHub</li>
+              <li>Client collaboration</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WORK / PORTFOLIO
+         Projects are rendered from the PROJECTS array in script.js.
+         Add an entry there and it appears here — no HTML editing needed.
+         ============================================================ -->
+    <section class="section section-alt" id="work">
+      <div class="container">
+        <p class="section-label">04 — Selected work</p>
+        <h2 class="section-title section-title-wide">Case studies, coming soon.</h2>
+        <p class="section-intro">
+          Most of my work lives behind client logins and NDAs. I'm writing up the parts I can share —
+          the integrations, the migrations, and the ones that were genuinely hard.
+        </p>
+
+        <!--
+          These three placeholder cards are real markup so the section still
+          reads correctly with JavaScript off. As soon as you add entries to the
+          PROJECTS array in script.js, they are replaced by your actual projects.
+        -->
+        <div class="work-grid" id="workGrid">
+          <article class="work-card is-placeholder reveal">
+            <span class="work-status">In progress</span>
+            <span class="work-index">01</span>
+            <h3>ERP integration case study</h3>
+            <p>A write-up of connecting an in-house system to Acumatica over REST — the constraints, the design, and what broke first.</p>
+          </article>
+
+          <article class="work-card is-placeholder reveal">
+            <span class="work-status">In progress</span>
+            <span class="work-index">02</span>
+            <h3>Custom module walkthrough</h3>
+            <p>How a real estate module goes from reservation to move-out inside the Acumatica Framework.</p>
+          </article>
+
+          <article class="work-card is-placeholder reveal">
+            <span class="work-status">In progress</span>
+            <span class="work-index">03</span>
+            <h3>Upgrade war story</h3>
+            <p>What a heavily customised Acumatica upgrade actually involves, and how to keep it from becoming a rewrite.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT
+         ============================================================ -->
+    <section class="section section-contact" id="contact">
+      <div class="container">
+        <p class="section-label">05 — Contact</p>
+        <h2 class="section-title section-title-wide">Have an Acumatica problem worth solving?</h2>
+        <p class="section-intro">
+          Whether it's a customisation, an integration or an upgrade that's been postponed one
+          quarter too many — send me the details and I'll tell you honestly whether I'm the right fit.
+        </p>
+
+        <!-- Primary call to action -->
+        <div class="contact-primary">
+          <div class="contact-primary-copy">
+            <span class="contact-label">Email</span>
+            <a class="contact-email" href="mailto:work.eng.galleno@gmail.com">work.eng.galleno@gmail.com</a>
+          </div>
+          <div class="contact-primary-actions">
+            <a class="btn btn-primary" href="mailto:work.eng.galleno@gmail.com">Start a conversation</a>
+            <button class="btn btn-ghost" type="button" id="copyEmail" data-email="work.eng.galleno@gmail.com">
+              <span id="copyEmailLabel">Copy address</span>
+            </button>
+            <!-- Announces the copy result to screen readers -->
+            <span class="visually-hidden" id="copyStatus" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+
+        <!-- Secondary details.
+             Add LinkedIn / GitHub by copying a card below and swapping the href.
+             Delete any card you don't want. -->
+        <div class="contact-grid">
+          <div class="contact-card contact-card-static">
+            <span class="contact-label">Based in</span>
+            <span class="contact-value">Kidapawan City, North Cotabato, Philippines</span>
+          </div>
+
+          <a class="contact-card" href="https://www.upwork.com/freelancers/~017a631d034f0e86d9" target="_blank" rel="noopener">
+            <span class="contact-label">Freelance</span>
+            <span class="contact-value">Upwork profile</span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="contact-card" href="Linnaire%20Galleno%20-%20Resume.pdf" target="_blank" rel="noopener">
+            <span class="contact-label">Résumé</span>
+            <span class="contact-value">Download the PDF</span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Linnaire Galleno</p>
+      <p class="footer-note">Built with plain HTML, CSS and JavaScript.</p>
+      <a class="footer-top" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>

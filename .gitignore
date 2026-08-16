@@ -1,0 +1,12 @@
+.env
+.env.local
+.env.*.local
+
+node_modules/
+dist/
+build/
+.DS_Store
+*.log
+
+# Local backup archive, not part of the published site
+linnaire.github.io.zip
